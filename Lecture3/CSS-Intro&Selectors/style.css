@@ -1,0 +1,31 @@
+
+
+header p{
+
+    color: red;
+}
+
+header > p{
+
+    color: green;
+}
+
+header ul{
+
+    background-color: blue;
+    color:white
+}
+
+header > ul{
+
+    background-color: steelblue;
+}
+
+header > div > ul{
+
+    background-color: yellow;
+    color: black;
+
+
+
+}
