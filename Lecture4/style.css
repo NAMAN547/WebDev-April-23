@@ -1,0 +1,58 @@
+
+
+.box{
+
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    background-color: bisque;
+    color: black;
+    font-size: 30px;
+    display: inline-block;
+    margin: 50px;
+    color: white;
+}
+
+/* .box + .box-0{
+
+    background-color: brown;
+} */
+
+
+
+/* ADJACENT SIBLINGS */
+
+/* .box + .box{
+
+    background-color: brown;
+} */
+
+
+
+/* GENERAL SIBLINGS */
+
+.box ~ .box{
+
+  background-color: brown;
+}
+
+
+
+
+/* .box-1{
+
+    background-color: aquamarine;
+} */
+
+/* .example{
+
+    background-color: black;
+
+
+} */
+
+
+/* .box-3{
+
+    background-color: chartreuse;
+} */

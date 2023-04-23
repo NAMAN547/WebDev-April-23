@@ -1,0 +1,98 @@
+
+
+div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: bisque;
+}
+
+
+div:hover{
+
+    border-radius: 20px;
+    background-color: blue;
+
+}
+
+li:first-child{
+
+    color: rgb(244, 1, 1);
+}
+
+li:last-child{
+
+    color: aquamarine;
+}
+
+li:only-child{
+
+    color: chartreuse;
+}
+
+li:nth-child(3n){
+
+    color: rgb(255, 0, 204);
+}
+
+section{
+
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: steelblue;
+    color: white;
+    margin: 100px auto;
+    font-size: 30px;
+}
+
+p:nth-child(2){
+
+    color: hotpink;
+}
+
+/* p:nth-of-type(2){
+
+    color: hotpink;
+} */
+
+input:checked{
+
+    outline: 3px solid red;
+}
+
+
+
+a:link{
+
+    color: rgb(203, 244, 0);
+}
+
+a:visited{
+
+    color: red ;
+}
+
+a:hover{
+
+    color: goldenrod;
+}
+
+a:active{
+
+    color: coral;
+}
+
+a::before{
+
+    content: 'this is before content'
+
+
+}
+
+a::after{
+
+    content: 'this is before content'
+
+
+}

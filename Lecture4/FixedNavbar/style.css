@@ -1,0 +1,39 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+header{
+
+    width: 100%;
+    background-color: steelblue;
+    height: 60px;
+    font-size: 30px;
+    position: fixed;
+ 
+}
+
+a{
+
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  position: relative;
+  top: 10px;
+   
+}
+
+a:last-child{
+    position: absolute;
+    top: 0px;
+    right: 30px;
+
+
+}
+
+p{
+
+    /* position: absolute;
+    top: 60px; */
+    padding-top: 60px;
+}
