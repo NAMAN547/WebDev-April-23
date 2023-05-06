@@ -1,0 +1,27 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+section{
+
+    width: 80vw;
+    height: 60vh;
+    background-color: black;
+    color: yellow;
+     
+}
+
+ section > div{
+ 
+    width: 100%;
+    height: 70%;
+    background-color: blanchedalmond;
+    padding-bottom:300px;
+    color: black;
+    box-sizing: border-box;
+  
+}
