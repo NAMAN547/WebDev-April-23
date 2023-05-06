@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+section{
+
+    background-color: bisque;
+    width: 90vw;
+    height: 90vh;
+    border: 1px solid black;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* gap: 20px; */
+    justify-content: flex-start ;
+   
+    
+  
+
+}
+
+section > .container {
+
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    background-color: slateblue;
+    color: white;
+    font-size: 3rem;
+    /* margin: 20px; */
+
+
+
+}
+
+div{
+
+     /* align-self: flex-start; */
+
+     /* flex-shrink:1 ; */
+     
+      
+}
+
+div:nth-of-type(3){
+
+    /* flex-shrink: 3; */
+    flex-basis: 300px;
+}

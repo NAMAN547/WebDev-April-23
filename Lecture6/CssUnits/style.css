@@ -1,0 +1,48 @@
+ /* *{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ 
+}
+
+section{
+
+    width: 80vw;
+    min-height: 60vh;
+    background-color: black;
+    color: yellow;
+     
+}
+
+ section > div{
+ 
+    width: 80%;
+    min-height: 50%;
+    background-color: blanchedalmond;
+    padding-bottom:300px; 
+     color: black;
+    padding-right: 100px;
+   
+  
+ } */
+
+ html{
+
+    font-size: 10px;
+ }
+
+ ul {
+
+    font-size: 2rem;
+ }
+
+  section > ul > li:last-child{
+
+    font-size: 50px;
+ }
+
+ /* #special{
+
+    font-size: 50px;
+ } */

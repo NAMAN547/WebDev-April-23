@@ -1,0 +1,19 @@
+
+i{
+
+    font-size: 3em;
+    
+}
+section{
+
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+    border: 2px solid black;
+    color: white;
+    background-image: url("home-img.jpeg");
+     background-position: center;
+     background-repeat: no-repeat; 
+    background-size: cover; 
+    font-size: 30px;
+}
