@@ -1,0 +1,15 @@
+
+
+section{
+
+    background-color: bisque;
+    width: 80vw;
+    height: 60vh;
+    border: 2px solid black;
+    margin: 100px auto;
+    background-image: url("./home-img.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}

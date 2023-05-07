@@ -1,0 +1,38 @@
+
+
+img{
+
+    display:block;
+    margin: 50px auto;
+    animation-name: bounceball;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+
+ 
+}
+
+@keyframes bounceball{
+
+    from{
+
+        translate: 0px;
+        rotate: 1.5turn;
+    }
+
+
+    to{
+
+      translate:  0px 600px;
+    }
+
+
+
+
+
+
+
+
+}
+
