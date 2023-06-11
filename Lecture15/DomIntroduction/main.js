@@ -17,18 +17,66 @@
 
 // target an element
 
- let firstLi =  document.getElementById("first-li")
+//  let firstLi =  document.getElementById("first-li")
 
- console.log(firstLi);
+//  console.log(firstLi);
 
- firstLi.style.color = "red"
-
-
- Object.assign(firstLi.style,{color : "blue",
-fontSize : "50px",
-backgroundColor: "brown"})
+//  firstLi.style.color = "red"
 
 
-let divELement = document.getElementsByTagName("li");
+//  Object.assign(firstLi.style,{color : "blue",
+// fontSize : "50px",
+// backgroundColor: "brown"})
 
-console.log(divELement)
+
+
+
+// target by class
+
+// let heading = document.getElementsByClassName("title");
+
+// console.log(heading)
+
+// // console.log(heading[0].innerHTML)
+
+
+// for(let  i = 0; i < heading.length; i++){
+
+//     heading[i].style.color = "red"
+
+// }
+
+
+//
+
+let list = document.querySelectorAll("ul > li");
+
+// console.log(list)
+
+for(let listItem of list){
+
+    listItem.style.color = "green";
+    listItem.style.fontSize = "32px"
+
+}
+
+
+
+let inputElement = document.querySelectorAll("input[type='text']");
+
+
+inputElement[1].style.backgroundColor = "yellow";
+
+
+
+console.log(inputElement[1].value)
+
+
+
+let button = document.querySelector("button");
+
+console.log(button.innerHTML)
+
+button.innerHTML= "send"
+
+
