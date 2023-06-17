@@ -111,8 +111,48 @@ let heading = document.getElementById("header-title");
 
 heading.addEventListener("click",(e)=>{
 
+    console.log(e.target.parentElement.parentElement.parentElement.parentElement.parentElement);
 
+    e.target.parentElement.parentElement.parentElement.parentElement.parentElement.style.backgroundColor = "rgb("+e.clientX+","+e.clientY+", 40)"
+
+    // console.log(e.clientX)
+    // console.log(e.offsetX)
+    // console.log(e.shiftKey)
+    // console.log(e.altKey)
+    // console.log(e.ctrlKey)
+
+    // console.log(e.type)
+})
+
+
+
+// let divElement = document.getElementsByClassName("output");
+
+// divElement[0].addEventListener("mouseout", (e)=>{
+
+//     console.log(e.type)
+// })
+
+
+// let inputElement = document.getElementById("item");
+
+
+// inputElement.addEventListener("blur", (e)=>{
+
+//     console.log(e.type)
+// })
+
+
+// form events
+
+let form = document.getElementById("addForm");
+
+form.addEventListener("submit", (e)=>{
+
+    e.preventDefault();
     console.log(e.type)
 
 })
+
+
 
