@@ -63,6 +63,25 @@ class Snake{
         let nextX;
         let nextY;
 
+
+        for(let i = 0; i < this.cells.length-1;i++){
+
+            let cell = this.cells[i];
+
+            if(cell.x === headX && cell.y === headY){
+
+                gameOver(intervalId);
+
+                return
+            }
+        }
+
+
+
+
+
+
+
         if( headX === food.x && headY === food.y){
 
             food = randomFood();
@@ -201,8 +220,8 @@ class Snake{
 
   function randomFood(){
 
-    let foodX = Math.floor(Math.random()*10);
-    let foodY = Math.floor(Math.random()*10);
+    let foodX = Math.floor(Math.random()*(W-cs)/cs);
+    let foodY = Math.floor(Math.random()*(H-cs)/cs);
 
     const foodCordinate = {
 
@@ -234,6 +253,8 @@ class Snake{
     clearInterval(intervalId)
 
 }
+
+console.log(randomFood())
 
 
 
